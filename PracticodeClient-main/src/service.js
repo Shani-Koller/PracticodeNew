@@ -1,5 +1,5 @@
 // import process.env.API_ADDRESS from 'process.env.API_ADDRESS';
-process.env.API_ADDRESS.defaults.baseURL= 'http://localhost:5030'
+//process.env.API_ADDRESS.defaults.baseURL= 'http://localhost:5030'
 
 process.env.API_ADDRESS.interceptors.response.use(
     (response) => {
