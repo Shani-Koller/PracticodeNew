@@ -17,7 +17,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("OpenPolicy",
                       policy =>
                       {
-                          policy.WithOrigins("https://todolistclient-lurn.onrender.com")
+                          policy.WithOrigins("https://practicodeclients.onrender.com")
                                 .AllowAnyHeader()
                                 .AllowAnyMethod()
                                 .AllowCredentials(); // Added AllowCredentials
